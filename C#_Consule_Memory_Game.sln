@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DROR_MEMORY_GAME_VERS_8.9", "DROR_MEMORY_GAME_VERS_8.9\DROR_MEMORY_GAME_VERS_8.9.csproj", "{4A749709-0BE9-4F3E-812E-F636BD542EBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#_Consule_Memory_Game", "DROR_MEMORY_GAME_VERS_8.9\C#_Consule_Memory_Game.csproj", "{4A749709-0BE9-4F3E-812E-F636BD542EBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

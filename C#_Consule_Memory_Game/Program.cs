@@ -21,7 +21,7 @@ namespace dror_memory_game_vers_8._9
 
         static string musicPath = System.AppDomain.CurrentDomain.BaseDirectory;
 
-        const int  closedCardInternalMargin = 0, openCardInternalMargin = 2, boardHeight = 40, boardWidth = boardHeight * 2;
+        const int  closedCardInternalMargin = 0, openCardInternalMargin = 2, boardHeight = 30, boardWidth = boardHeight * 2;
 
         const string closedStr = "X", flipCardFileName = "flip_card.wav", typeFileName = "keyboard_typing.mp3";
 
@@ -33,6 +33,12 @@ namespace dror_memory_game_vers_8._9
 
         static void Main(string[] args)
         {
+            Console.SetWindowSize(20, 10);
+            while(Console.WindowHeight < boardHeight || Console.WindowWidth < boardWidth * 2)
+            {
+                WriteLine("Please make window bigger!");
+                Console.Clear();
+            }
             InitStartGame();
 
         }
